@@ -80,23 +80,18 @@ footer {
 
 
 
-
 .page-container {
-text-align: center;
-}
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Esto hará que los elementos se alineen hacia arriba */
+  flex-wrap: wrap; /* Esto permitirá que los elementos se ajusten al ancho disponible */
 
-.imgContainer {
-  display: inline-block;
-  white-space: nowrap;
-  margin: 7px; /* Espacio entre los contenedores de imagen */
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 300px;
+  width: 12%;
+  border-radius: 8px;
+  margin: 7px; /* Espacio entre los contenedores */
   padding: 20px;
   border: 2px solid #ccc;
   border-radius: 8px;
@@ -107,6 +102,23 @@ text-align: center;
   width: 100%;
   border-radius: 8px;
 }
+
+.info {
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+p {
+  color: #666;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
 
 .info {
   text-align: center;

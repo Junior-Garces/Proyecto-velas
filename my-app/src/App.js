@@ -26,12 +26,63 @@ function App() {
         </div>
       </header>
       <main>
-
         <div className="page-container">
-          <div className="imgContainer">
+          <div className="container">
+            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
+            <h2>titutulo</h2>
+            <p> hola</p>
+          </div>
+          <div className="container">
+            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
+            <h2>titutulo</h2>
+            <p> hola</p>
+          </div>
+          <div className="container">
+            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
+            <h2>titutulo</h2>
+            <p> hola</p>
+          </div>
+          <div className="container">
+            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
+            <h2>titutulo</h2>
+            <p> hola</p>
+          </div>
+          <div className="container">
+            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
+            <h2>titutulo</h2>
+            <p> hola</p>
+          </div>
+          <div className="container">
+            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
+            <h2>titutulo</h2>
+            <p> hola</p>
+          </div>
+          <div className="container">
+            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
+            <h2>titutulo</h2>
+            <p> hola</p>
+          </div>
+          <div className="container">
+            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
+            <h2>titutulo</h2>
+            <p> hola</p>
+          </div>
+          <div className="container">
+            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
+            <h2>titutulo</h2>
+            <p> hola</p>
+          </div>
+          <div className="container">
+            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
+            <h2>titutulo</h2>
+            <p> hola</p>
+          </div>
+          <div className="container">
+            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
+            <h2>titutulo</h2>
+            <p> hola</p>
           </div>
         </div>
-
         <div id="Inicio">
           <h1>inicio </h1>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
