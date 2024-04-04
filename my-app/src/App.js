@@ -22,7 +22,7 @@ function App() {
         </div>
         <div className="buscar">
           <input type="text" placeholder="Buscar..." />
-          <img src="ruta.jpg" alt="img lupa" />
+          <img src="/imagenes/LUPA.png" alt="img lupa" />
         </div>
       </header>
       <main>

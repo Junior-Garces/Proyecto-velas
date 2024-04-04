@@ -28,6 +28,10 @@ header {
   align-items: center;
 }
 
+.buscar img{
+  width: 10%;
+  border-radius: 50px;
+}
 .buscar input {
   padding: 5px;
   margin-right: 5px;
@@ -89,13 +93,17 @@ footer {
 }
 
 .container {
-  width: 12%;
+  width: 18%;
   border-radius: 8px;
   margin: 7px; /* Espacio entre los contenedores */
   padding: 20px;
   border: 2px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container:hover {
+  width: 20%;
+background-color: #66666657;
 }
 
 .container img {
