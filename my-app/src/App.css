@@ -73,22 +73,28 @@ main {
   padding: 20px;
 }
 
-footer {
+.footer-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* elementos se ajusten al ancho disponible */
   background-color: #333;
   color: white;
-  text-align: center;
-  padding: 10px;
-
 }
 
+.bloques {
+  width: 18%;
+  margin: 7px; /* Espacio entre los contenedores */
+  padding: 5px;  
+  text-align: center;
+}
 
 
 
 .page-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Esto hará que los elementos se alineen hacia arriba */
-  flex-wrap: wrap; /* Esto permitirá que los elementos se ajusten al ancho disponible */
+  align-items: flex-start; /*  elementos se alineen hacia arriba */
+  flex-wrap: wrap; /* elementos se ajusten al ancho disponible */
 
 }
 
@@ -96,10 +102,11 @@ footer {
   width: 18%;
   border-radius: 8px;
   margin: 7px; /* Espacio entre los contenedores */
-  padding: 20px;
-  border: 2px solid #ccc;
+  padding: 10px;
+  border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 .container:hover {
   width: 20%;
@@ -107,7 +114,7 @@ background-color: #66666657;
 }
 
 .container img {
-  width: 100%;
+  width: 80%;
   border-radius: 8px;
 }
 
@@ -142,4 +149,17 @@ p {
   color: #666;
   font-size: 1rem;
   margin-top: 10px;
+}
+
+.containerWhatsapp {
+  position: fixed;
+  top: 500px; /* Ajusta esta cantidad según sea necesario para la posición vertical deseada */
+  right: 20px; /* Ajusta esta cantidad según sea necesario para la posición horizontal deseada */
+  z-index: 999; /* Ajusta esto si el contenedor se superpone a otros elementos */
+  width: 10%;
+  border-radius: 50px;
+}
+.containerWhatsapp a img {
+  width: 50%;
+  border-radius: 50px;
 }

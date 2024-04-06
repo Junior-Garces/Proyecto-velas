@@ -28,60 +28,75 @@ function App() {
       <main>
         <div className="page-container">
           <div className="container">
-            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
-            <h2>titutulo</h2>
-            <p> hola</p>
+            <img src="/imagenes/imgProductos/ImgProducto1.jpg" alt="ImgProducto" />
+            <h2>titutulo1</h2>
+            <p> descripción1</p>
           </div>
           <div className="container">
-            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
-            <h2>titutulo</h2>
-            <p> hola</p>
+            <img src="/imagenes/imgProductos/ImgProducto2.jpg" alt="ImgProducto" />
+            <h2>titutulo2</h2>
+            <p> descripción2</p>
           </div>
           <div className="container">
-            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
-            <h2>titutulo</h2>
-            <p> hola</p>
+            <img src="/imagenes/imgProductos/ImgProducto3.jpg" alt="ImgProducto" />
+            <h2>titutulo3</h2>
+            <p> descripción3</p>
           </div>
           <div className="container">
-            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
-            <h2>titutulo</h2>
-            <p> hola</p>
+            <img src="/imagenes/imgProductos/ImgProducto4.jpg" alt="ImgProducto" />
+            <h2>titutulo4</h2>
+            <p> descripción4</p>
           </div>
           <div className="container">
-            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
-            <h2>titutulo</h2>
-            <p> hola</p>
+            <img src="/imagenes/imgProductos/ImgProducto5.jpg" alt="ImgProducto" />
+            <h2>titutulo5</h2>
+            <p> descripción5</p>
           </div>
           <div className="container">
-            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
-            <h2>titutulo</h2>
-            <p> hola</p>
+            <img src="/imagenes/imgProductos/ImgProducto6.jpg" alt="ImgProducto" />
+            <h2>titutulo6</h2>
+            <p> descripción6</p>
           </div>
           <div className="container">
-            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
-            <h2>titutulo</h2>
-            <p> hola</p>
+            <img src="/imagenes/imgProductos/ImgProducto7.jpg" alt="ImgProducto" />
+            <h2>titutulo7</h2>
+            <p> descripción7</p>
           </div>
           <div className="container">
-            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
-            <h2>titutulo</h2>
-            <p> hola</p>
+            <img src="/imagenes/imgProductos/ImgProducto8.jpg" alt="ImgProducto" />
+            <h2>titutulo8</h2>
+            <p> descripción8</p>
           </div>
           <div className="container">
-            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
-            <h2>titutulo</h2>
-            <p> hola</p>
+            <img src="/imagenes/imgProductos/ImgProducto9.jpg" alt="ImgProducto" />
+            <h2>titutulo9</h2>
+            <p> descripción9</p>
           </div>
           <div className="container">
-            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
-            <h2>titutulo</h2>
-            <p> hola</p>
+            <img src="/imagenes/imgProductos/ImgProducto10.jpg" alt="ImgProducto" />
+            <h2>titutulo10</h2>
+            <p> descripción10</p>
           </div>
           <div className="container">
-            <img src="/imagenes/vela-logo.jpeg" alt="Logo de la empresa" />
-            <h2>titutulo</h2>
-            <p> hola</p>
+            <img src="/imagenes/imgProductos/ImgProducto11.jpg" alt="ImgProducto" />
+            <h2>titutulo11</h2>
+            <p> descripción11</p>
           </div>
+          <div className="container">
+            <img src="/imagenes/imgProductos/ImgProducto1.jpg" alt="ImgProducto" />
+            <h2>titutulo12</h2>
+            <p> descripción12</p>
+          </div>
+          <div className="container">
+            <img src="/imagenes/imgProductos/ImgProducto2.jpg" alt="ImgProducto" />
+            <h2>titutulo13</h2>
+            <p> descripción13</p>
+          </div>
+        </div>
+        <div className="containerWhatsapp">
+          <a href="https://wa.me/+573022573054">
+            <img src="/imagenes/WhatsApp_Logo.jpg" alt="img whatsapp" />
+          </a>
         </div>
         <div id="Inicio">
           <h1>inicio </h1>
@@ -135,35 +150,23 @@ function App() {
           </p>
         </div>
       </main>
-      <footer>
-        <p>
-          Contáctanos
-
-          cerowasteshop@gmail.com
-
-          3176354622
-
-          Cra 37 # 52 - 102
-          Síguenos
-
-          Facebook
-
-          Instagram
-
-          Enlaces
-
-          Quienes somos
-          Búsqueda
-          Términos del servicio
-          Política de reembolso
-
-          Políticas
-
-          Políticas de Privacidad
-          Políticas de Reembolso
-          Términos del Servicio
-
-          ¿Quieres que te informemos nuestras promociones y nuevos productos? </p>
+      <footer className="footer-container">
+        <div className="bloques">
+          <h3>Contáctanos</h3>
+          <p> descripción</p>
+        </div>
+        <div className="bloques">
+          <h3>Síguenos</h3>
+          <p> descripción</p>
+        </div>
+        <div className="bloques">
+          <h3>Enlaces</h3>
+          <p> descripción</p>
+        </div>
+        <div className="bloques">
+          <h3>Políticas</h3>
+          <p> descripción</p>
+        </div>
       </footer>
     </div>
   );
