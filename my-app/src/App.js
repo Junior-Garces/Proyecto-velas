@@ -1,20 +1,20 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+// Componentes de las páginas
 import Home from './Home';
 import Productos from './productos';
 
-
 function App() {
   return (
-<BrowserRouter>
-
+    <BrowserRouter>
       <div>
         <nav>
           <ul>
             <li><Link to="/">Inicio</Link></li>
-            <li><Link to="/productos">Productos</Link></li>
             <li><Link to="/Home">Home</Link></li>
+            <li><Link to="/productos">Productos</Link></li>
+
           </ul>
         </nav>
         <header>
@@ -32,11 +32,11 @@ function App() {
           </div>
         </header>
         <main>
-                  {/* Definición de las rutas */}
-                  <Routes>
-          <Route exact path="/Home" element={<Home />} />
-          <Route path="/productos" element={<Productos />} />
-        </Routes>
+          {/* Definición de las rutas */}
+          <Routes>
+            <Route exact path="/Home" element={<Home />} />
+            <Route path="/productos" element={<Productos />} />
+          </Routes>
           <div className="page-container">
             <div className="container">
               <img src="/imagenes/imgProductos/ImgProducto1.jpg" alt="ImgProducto" />
@@ -184,7 +184,8 @@ function App() {
           </div>
         </footer>
       </div>
-      </BrowserRouter>
+
+    </BrowserRouter>
   );
 }
 
