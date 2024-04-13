@@ -163,3 +163,66 @@ p {
   width: 50%;
   border-radius: 50px;
 }
+.containerWhatsapp:hover {
+  right: 10px; /* Ajusta esta cantidad según sea necesario para la posición horizontal deseada */
+  width: 12%;
+}
+
+
+
+/*css de la plantilla*/
+
+.producto-container {
+  display: flex;
+}
+
+.image-container {
+  width: 30%;
+  margin-right: 5px; /* Margen entre la imagen y el siguiente contenedor */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.miniaturas-container {
+  width: 10%; /* Ajusta el tamaño según sea necesario */
+  display: flex;
+  flex-direction: column;
+  margin-right: 250px;
+  
+}
+
+.miniaturas-container img {
+  width: 50%; /* Ajusta el tamaño de las imágenes pequeñas */
+  margin-bottom: 5px; /* Espacio entre las imágenes */
+}
+.info-container {
+  width: 50%; 
+  flex: 1;
+}
+
+.info-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-container p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.info-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.info-container button:hover {
+  background-color: #0056b3; 
+  font-size: 16px;
+}
