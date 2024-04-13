@@ -103,7 +103,18 @@ function App() {
         <footer className="footer-container">
           <div className="bloques-footer">
             <h3>Contáctanos</h3>
-            <p> descripción</p>
+            <div  className="container-imgwhatsappfooter">
+            <div className="imgwhatsappfooter">
+            <a href="https://wa.me/+573022573054">
+              <img src="/imagenes/imgwhatsappfooter.png" alt="img whatsapp" />
+            </a>
+          </div>
+          <div className="imgwhatsappfooter">
+            <a href="https://wa.me/+573022573054">
+              <img src="/imagenes/imginstagramfooter.png" alt="img whatsapp" />
+            </a>
+          </div>
+          </div>
           </div>
           <div className="bloques-footer">
             <h3>Síguenos</h3>

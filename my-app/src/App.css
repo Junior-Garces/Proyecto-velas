@@ -41,7 +41,7 @@ nav {
   position: fixed;
   width: 100%;
   box-shadow: 0 2px 4px #0000001a;
-  background-color: #ffc0cbf1;
+  background-color: rgba(255, 192, 203, 0.945);
   color: white;
   padding: 10px;
   text-align: center;
@@ -88,7 +88,20 @@ main {
   text-align: center;
 }
 
-
+.imgwhatsappfooter{
+  width: 20%;
+}
+.container-imgwhatsappfooter{ 
+  display: flex;
+  justify-content: center;
+ 
+}
+.imgwhatsappfooter a img {
+  width: 100%;
+}
+.imgwhatsappfooter:hover {
+  width: 21%;
+}
 
 .page-container {
   display: flex;
@@ -164,7 +177,7 @@ p {
   border-radius: 50px;
 }
 .containerWhatsapp:hover {
-  right: 10px; /* Ajusta esta cantidad según sea necesario para la posición horizontal deseada */
+  right: 10px; 
   width: 12%;
 }
 
@@ -187,7 +200,7 @@ p {
 }
 
 .miniaturas-container {
-  width: 10%; /* Ajusta el tamaño según sea necesario */
+  width: 10%; 
   display: flex;
   flex-direction: column;
   margin-right: 250px;
@@ -195,7 +208,7 @@ p {
 }
 
 .miniaturas-container img {
-  width: 50%; /* Ajusta el tamaño de las imágenes pequeñas */
+  width: 50%; 
   margin-bottom: 5px; /* Espacio entre las imágenes */
 }
 .info-container {
